@@ -1,1 +1,2 @@
 ​
+"A palindrome number is a numerical value that remains unchanged when its digits are reversed, reading the same forward and backward. For instance, 121 is a palindrome number because '121' spelled backwards is still '121'. To determine if a given integer is a palindrome, we can convert it to a string and compare it to its reverse. If they match, the number is indeed a palindrome. This solution provides a simple and efficient approach to checking for palindrome numbers, with a time complexity of O(log n) and a space complexity of O(1)."
