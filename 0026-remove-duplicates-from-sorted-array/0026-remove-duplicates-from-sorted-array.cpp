@@ -3,14 +3,15 @@ public:
     int removeDuplicates(vector<int>& nums) {
         set<int>s;
         int n=nums.size();
-        for(auto it=nums.begin()+1;it!=nums.end();){
-            if(*(it-1)==*it)
-            nums.erase(it-1);
-            else
-            it++;
+        for(int i=0;i<n;i++){
+            s.insert(nums[i]);
         }
-        int k=nums.size();
-        return k;
+     int   index=0;
+        for(auto it:s){
+            nums[index]=it;
+            index++;
+        }
+        return index;
 
     }
 };
